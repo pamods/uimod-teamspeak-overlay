@@ -1,0 +1,22 @@
+#teamspeak_frame_content  {
+	font-size: 20px;
+}
+
+#tsplayer_list li {
+    height: 0;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.0);
+    overflow: hidden;
+    transition: all 0.5s, height 0.2s linear 0.3s;
+}
+
+#tsplayer_list li.talking {
+    color: #ff2;
+    height: 1em;
+    transition: all 0.5s, height 0.2s;
+}
+#tsplayer_list li.talking_while_disabled {
+    color: #22f;
+    height: 1em;
+    transition: all 0.5s, height 0.2s;
+}

@@ -1,0 +1,26 @@
+{
+    "context": "client",
+    "identifier": "com.pa.danzel.teamspeak",
+    "display_name": "TeamSpeak overlay",
+    "description": "Shows a overlay for TeamSpeak chat. Requires TeamSpeak3 WebSockets plugin (see forum thread)",
+    "author": "danzel",
+    "version": "1.0.0",
+    "build": "59607",
+    "date": "2014/02/13",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/teamspeak-overlay.56469/",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "id": "teamspeak",
+    "priority": 100,
+    "live_game": [
+        "coui://ui/mods/teamspeak/teamspeak.css",
+        "coui://ui/mods/teamspeak/teamspeak.js"
+    ],
+    "requires": [
+        "rFloatFrame",
+    ],
+    "enabled": true
+}
