@@ -20,7 +20,7 @@
         "coui://ui/mods/teamspeak/teamspeak.js"
     ],
     "requires": [
-        "rFloatFrame",
+        "rFloatFrame"
     ],
     "enabled": true
 }
