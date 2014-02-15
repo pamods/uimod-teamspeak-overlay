@@ -193,7 +193,7 @@ $(function() {
 		
 		var default_options = {
 			reconnect_timeout: 1000,
-			hostname: 'localhost',
+			hostname: '127.0.0.1',
 			protocols: [],
 			port: 80,
 			verbose: 0
